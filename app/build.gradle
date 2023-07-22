@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     buildFeatures{
         viewBinding true
@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId "dev.pegasus.viewstub"
         minSdk 23
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'dev.pegasus.viewstub'
 }
 
 dependencies {
